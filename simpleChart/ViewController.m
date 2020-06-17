@@ -30,7 +30,7 @@
     _columnarView.lineSpace = _lineSpace;
     _columnarView.dataArray = _dataArray;
     _columnarView.titleArray = _titleArray;
-    _columnarView.yMax = 2000;
+    _columnarView.yMax = 300;
     _columnarView.columnarBGColor = [UIColor grayColor];
     _columnarView.columnarColor = [UIColor greenColor];
     _columnarView.frame = CGRectMake(0, 0, _lineSpace*2 + (_lineSpace+_lineWidth)*_dataArray.count, 300);

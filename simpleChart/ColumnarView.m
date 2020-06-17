@@ -79,7 +79,7 @@
 -(void)drawRect:(CGRect)rect{
     _columnarHeight = CGRectGetHeight(self.frame) - _bottomHeight -_lineSpace ;
     for (int i = 0; i < _dataArray.count; i++) {
-        CGRect rect = CGRectMake(_lineSpace+(_lineSpace + _lineWidth)*i, _columnarHeight - [_dataArray[i] floatValue]/_yMax*_columnarHeight, _lineWidth, [_dataArray[i] floatValue]);
+        CGRect rect = CGRectMake(_lineSpace+(_lineSpace + _lineWidth)*i, _columnarHeight +_lineSpace - [_dataArray[i] floatValue]/_yMax*_columnarHeight, _lineWidth, [_dataArray[i] floatValue]);
         [self drawLineWithRect:rect];
         [self drawTextWithTitle:_titleArray[i] andRect:rect];
         
