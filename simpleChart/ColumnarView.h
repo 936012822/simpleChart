@@ -13,4 +13,7 @@
 @property (nonatomic, strong) NSArray * titleArray;
 @property (nonatomic, assign) CGFloat lineWidth;
 @property (nonatomic, assign) CGFloat lineSpace;
+@property (nonatomic, assign) CGFloat yMax;
+@property (nonatomic, strong) UIColor * columnarBGColor;
+@property (nonatomic, strong) UIColor * columnarColor;
 @end
