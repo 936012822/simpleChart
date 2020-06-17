@@ -2,8 +2,8 @@
 //  simpleChartTests.m
 //  simpleChartTests
 //
-//  Created by pro on 2020/6/16.
-//  Copyright © 2020年 pro. All rights reserved.
+//  Created by qianqian ma on 2020/6/17.
+//  Copyright © 2020 qianqian ma. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
@@ -15,13 +15,11 @@
 @implementation simpleChartTests
 
 - (void)setUp {
-    [super setUp];
     // Put setup code here. This method is called before the invocation of each test method in the class.
 }
 
 - (void)tearDown {
     // Put teardown code here. This method is called after the invocation of each test method in the class.
-    [super tearDown];
 }
 
 - (void)testExample {
